@@ -1,3 +1,9 @@
+courses.json
+geckodriver.log
+download/
+# Created by https://www.gitignore.io/api/python
+
+### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -8,7 +14,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -79,13 +84,14 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# dotenv
+# Environments
 .env
-
-# virtualenv
 .venv
+env/
 venv/
 ENV/
+env.bak/
+venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -99,3 +105,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# End of https://www.gitignore.io/api/python
